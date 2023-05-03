@@ -1,11 +1,12 @@
 function SecondComponent (){
+    const handleCick = () => {console.log("Teste")}
     return (
-        <ul> Livros:
-        <li>Dom Casmurro</li>
-        <li>O Alienista</li>
-        <li>Memórias póstumas de Brás Cubas</li>
-        <li>Dave Grohl: Uma história de vida</li>
-        </ul>
+        <div className = "SecondComponent">
+            <p>Segundo Componente</p>
+            <button onClick={handleCick}>Clique Teste</button>
+            <hr />
+            <button onClick={() => {console.log("Olá,Mundo")}}>Clique Aqui</button>
+        </div>
     )
 }
 
