@@ -6,12 +6,12 @@ import Images from './components/Images';
 function App() {
   return (
     <div>
-      <h1>Site teste</h1>
+      <h1>Site Teste</h1>
       <FirstComponent/>
       <SecondComponent/>
       <Images/>
     </div>
-  );
+  )
 }
 
 export default App;
